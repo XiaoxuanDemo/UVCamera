@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/dialog_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_margin="20dp"
+        android:text="是否使用本照片，五秒后自动使用本照片"
+        android:textSize="20dp"
+        android:textColor="#6f1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/dialog_right"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="40dp"
+        android:clickable="true"
+        android:src="@drawable/icon_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <!--<TextView-->
+        <!--android:layout_marginBottom="20dp"-->
+        <!--android:text=""-->
+        <!--android:layout_gravity="center|bottom"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+    <ImageView
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="40dp"
+        android:clickable="true"
+        android:id="@+id/dialog_image_cancle"
+        android:src="@drawable/icon_cancle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</FrameLayout>
